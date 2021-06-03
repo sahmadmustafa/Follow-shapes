@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15702" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="WMP-D9-7c7">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15704"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Follow_shapes" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="132" y="100"/>
+        </scene>
+        <!--Playgame-->
+        <scene sceneID="9yz-I7-P6W">
+            <objects>
+                <viewController storyboardIdentifier="playgame" useStoryboardIdentifierAsRestorationIdentifier="YES" id="WMP-D9-7c7" customClass="playgame" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="3zj-7g-IcH">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="jo44.png" translatesAutoresizingMaskIntoConstraints="NO" id="u2q-5b-aEi">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="896" id="f7f-Zm-sef"/>
+                                    <constraint firstAttribute="width" constant="414" id="ld4-bZ-aBn"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5JR-c9-Uin">
+                                <rect key="frame" x="249" y="307" width="110" height="110"/>
+                                <color key="backgroundColor" red="0.99942404029999998" green="0.98555368190000003" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="110" id="1rh-AZ-wqL"/>
+                                    <constraint firstAttribute="height" constant="110" id="Dp6-GY-jd0"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Verdana-Bold" family="Verdana" pointSize="40"/>
+                                <state key="normal" image="Dark_orange.PNG">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="orange" destination="WMP-D9-7c7" eventType="touchUpInside" id="Qcw-wZ-oUk"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ruV-20-XdB">
+                                <rect key="frame" x="60" y="538" width="294" height="44"/>
+                                <color key="backgroundColor" red="1" green="0.14913141730000001" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="2cI-UB-yhI"/>
+                                    <constraint firstAttribute="width" constant="294" id="N4j-G3-Ihg"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="20"/>
+                                <state key="normal" title="NEW GAME">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="startgame" destination="WMP-D9-7c7" eventType="touchUpInside" id="S1u-rF-pK6"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Total Score = 0" textAlignment="center" lineBreakMode="tailTruncation" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="57J-3c-BIm">
+                                <rect key="frame" x="0.0" y="44" width="414" height="69"/>
+                                <color key="backgroundColor" red="0.92547587871283066" green="1" blue="0.82048499489386251" alpha="0.42604880136986301" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="69" id="QqG-UA-uha"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="29"/>
+                                <color key="textColor" red="1" green="0.14913141730000001" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="highlightedColor" red="0.58405989410000003" green="0.56232678889999999" blue="0.99887222050000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gYU-lk-RAB">
+                                <rect key="frame" x="59" y="468" width="296" height="44"/>
+                                <color key="backgroundColor" red="0.0" green="0.56284224989999998" blue="0.31881666180000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="296" id="Odg-Kt-CTX"/>
+                                    <constraint firstAttribute="height" constant="44" id="rFc-5e-O52"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="20"/>
+                                <state key="normal" title="SUBMIT">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="Result" destination="WMP-D9-7c7" eventType="touchUpInside" id="vRc-8v-Bad"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bLI-dr-FZR">
+                                <rect key="frame" x="65" y="307" width="110" height="110"/>
+                                <color key="backgroundColor" red="0.016804177310000001" green="0.19835099580000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="110" id="9td-W8-D8y"/>
+                                    <constraint firstAttribute="height" constant="110" id="UbL-E8-yqe"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Verdana-Bold" family="Verdana" pointSize="40"/>
+                                <state key="normal" image="blue.png">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="blue" destination="WMP-D9-7c7" eventType="touchUpInside" id="JSB-R3-azC"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LeM-Qb-FjV">
+                                <rect key="frame" x="65" y="157" width="110" height="110"/>
+                                <color key="backgroundColor" red="1" green="0.14253673180000001" blue="0.089279952689999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="110" id="Lkl-fA-J6s"/>
+                                    <constraint firstAttribute="height" constant="110" id="QdS-1v-bme"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Verdana-Bold" family="Verdana" pointSize="40"/>
+                                <state key="normal" image="redd.png">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="titleShadowColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="red" destination="WMP-D9-7c7" eventType="touchUpInside" id="zKG-zx-Nn7"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="idv-ZT-MDm">
+                                <rect key="frame" x="249" y="157" width="110" height="110"/>
+                                <color key="backgroundColor" red="0.11212890609999999" green="1" blue="0.070491288479999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="110" id="Lsc-fS-sXf"/>
+                                    <constraint firstAttribute="height" constant="110" id="gze-E6-Y6b"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Verdana-Bold" family="Verdana" pointSize="40"/>
+                                <state key="normal" image="Light_green.PNG">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="green" destination="WMP-D9-7c7" eventType="touchUpInside" id="Wtn-8w-JSm"/>
+                                </connections>
+                            </button>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bzP-FU-1eg">
+                                <rect key="frame" x="0.0" y="139" width="414" height="391"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.3771939212" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="391" id="JEk-xq-89N"/>
+                                    <constraint firstAttribute="width" constant="414" id="tKU-45-SYg"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="57J-3c-BIm" firstAttribute="leading" secondItem="bzP-FU-1eg" secondAttribute="leading" id="1M6-JV-N5r"/>
+                            <constraint firstItem="bzP-FU-1eg" firstAttribute="top" secondItem="57J-3c-BIm" secondAttribute="bottom" constant="26" id="71Q-Hm-BWU"/>
+                            <constraint firstItem="bLI-dr-FZR" firstAttribute="leading" secondItem="W6d-kx-62T" secondAttribute="leading" constant="65" id="9oX-zt-kn4"/>
+                            <constraint firstItem="ruV-20-XdB" firstAttribute="leading" secondItem="W6d-kx-62T" secondAttribute="leading" constant="60" id="A5Z-qz-HCo"/>
+                            <constraint firstItem="57J-3c-BIm" firstAttribute="top" secondItem="W6d-kx-62T" secondAttribute="top" id="KkX-wU-g2W"/>
+                            <constraint firstItem="u2q-5b-aEi" firstAttribute="leading" secondItem="W6d-kx-62T" secondAttribute="leading" id="P2V-3F-k67"/>
+                            <constraint firstItem="ruV-20-XdB" firstAttribute="top" secondItem="bzP-FU-1eg" secondAttribute="bottom" constant="8" id="QB8-CO-MrM"/>
+                            <constraint firstItem="5JR-c9-Uin" firstAttribute="top" secondItem="idv-ZT-MDm" secondAttribute="bottom" constant="40" id="R2D-eP-7Ms"/>
+                            <constraint firstItem="idv-ZT-MDm" firstAttribute="top" secondItem="57J-3c-BIm" secondAttribute="bottom" constant="44" id="R2I-fP-gSs"/>
+                            <constraint firstItem="LeM-Qb-FjV" firstAttribute="top" secondItem="57J-3c-BIm" secondAttribute="bottom" constant="44" id="R4g-iB-9OB"/>
+                            <constraint firstItem="W6d-kx-62T" firstAttribute="trailing" secondItem="ruV-20-XdB" secondAttribute="trailing" constant="60" id="Rci-wO-6Mt"/>
+                            <constraint firstItem="gYU-lk-RAB" firstAttribute="leading" secondItem="W6d-kx-62T" secondAttribute="leading" constant="59" id="T27-m0-VoI"/>
+                            <constraint firstItem="bzP-FU-1eg" firstAttribute="trailing" secondItem="W6d-kx-62T" secondAttribute="trailing" id="UD5-X6-5fi"/>
+                            <constraint firstItem="57J-3c-BIm" firstAttribute="trailing" secondItem="bzP-FU-1eg" secondAttribute="trailing" id="Y9x-07-AOP"/>
+                            <constraint firstAttribute="bottom" secondItem="u2q-5b-aEi" secondAttribute="bottom" id="Yky-LI-rIT"/>
+                            <constraint firstItem="u2q-5b-aEi" firstAttribute="trailing" secondItem="W6d-kx-62T" secondAttribute="trailing" id="b9P-tT-VSw"/>
+                            <constraint firstItem="57J-3c-BIm" firstAttribute="trailing" secondItem="u2q-5b-aEi" secondAttribute="trailing" id="cPT-g7-dpF"/>
+                            <constraint firstItem="W6d-kx-62T" firstAttribute="trailing" secondItem="idv-ZT-MDm" secondAttribute="trailing" constant="55" id="eVI-YI-ga9"/>
+                            <constraint firstItem="gYU-lk-RAB" firstAttribute="top" secondItem="5JR-c9-Uin" secondAttribute="bottom" constant="51" id="fWs-X0-zmu"/>
+                            <constraint firstItem="LeM-Qb-FjV" firstAttribute="leading" secondItem="W6d-kx-62T" secondAttribute="leading" constant="65" id="g2L-x9-jrx"/>
+                            <constraint firstItem="bzP-FU-1eg" firstAttribute="leading" secondItem="W6d-kx-62T" secondAttribute="leading" id="lr0-GN-wsV"/>
+                            <constraint firstItem="u2q-5b-aEi" firstAttribute="top" secondItem="3zj-7g-IcH" secondAttribute="top" id="ms7-8O-GNr"/>
+                            <constraint firstItem="W6d-kx-62T" firstAttribute="trailing" secondItem="gYU-lk-RAB" secondAttribute="trailing" constant="59" id="ocY-lv-51N"/>
+                            <constraint firstItem="bLI-dr-FZR" firstAttribute="top" secondItem="LeM-Qb-FjV" secondAttribute="bottom" constant="40" id="opX-2m-3Ge"/>
+                            <constraint firstItem="W6d-kx-62T" firstAttribute="trailing" secondItem="5JR-c9-Uin" secondAttribute="trailing" constant="55" id="waw-BT-8qA"/>
+                            <constraint firstItem="57J-3c-BIm" firstAttribute="centerX" secondItem="3zj-7g-IcH" secondAttribute="centerX" id="yq2-UP-6Pk"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="W6d-kx-62T"/>
+                    </view>
+                    <connections>
+                        <outlet property="Overlay" destination="bzP-FU-1eg" id="32T-aa-DEr"/>
+                        <outlet property="blue1" destination="bLI-dr-FZR" id="z7R-je-tht"/>
+                        <outlet property="btnEnterSequenceButton" destination="gYU-lk-RAB" id="B8M-ck-DC2"/>
+                        <outlet property="button" destination="ruV-20-XdB" id="X3z-f8-wrT"/>
+                        <outlet property="green1" destination="idv-ZT-MDm" id="Oax-aG-Sbe"/>
+                        <outlet property="label1" destination="57J-3c-BIm" id="X5g-CG-hvl"/>
+                        <outlet property="orange1" destination="5JR-c9-Uin" id="O7n-2T-I1L"/>
+                        <outlet property="red1" destination="LeM-Qb-FjV" id="x2G-eP-2zN"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dp1-I6-tuX" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="308.69565217391306" y="953.57142857142856"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Dark_orange.PNG" width="16" height="16"/>
+        <image name="Light_green.PNG" width="16" height="16"/>
+        <image name="blue.png" width="16" height="16"/>
+        <image name="jo44.png" width="812" height="567"/>
+        <image name="redd.png" width="16" height="16"/>
+    </resources>
+</document>
