@@ -8,6 +8,6 @@
 [![Platform](https://img.shields.io/cocoapods/p/BadgeSwift.svg?style=flat)](http://cocoadocs.org/docsets/BadgeSwift)
 
 # Follow-shapes
-This app is a Sequence Playing Gane for Shapes Recognition.Its a fantastic Work for Native Specially for All the new Commers who reaaly wish to have their Ready Solution,Fantastic solution game and ready to use for app store.
+This app is a Sequence Playing Gane for Shapes Recognition.Its a fantastic Work for Native Specially for All the new Commers who reaaly wish to have their Ready Solution,Fantastic solution game and ready to use for app store.NATIVE SOLUTION for beginners and also people who want perfect solution inside game native ios development.
 
 Source Code Swift Complete Project is here.
