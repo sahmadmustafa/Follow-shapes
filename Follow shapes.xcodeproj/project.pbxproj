@@ -36,6 +36,33 @@
 		18D1681024DF894200666C5E /* 132-1329769_png-file-sun-shape.png.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 18D167FD24DF894200666C5E /* 132-1329769_png-file-sun-shape.png.jpeg */; };
 		18D1681124DF894200666C5E /* 4758382-cute-yellow-moon-png-clipart-picture-animated-picture-of-a-moon-cute-moon-png-820_950_preview.png.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 18D167FE24DF894200666C5E /* 4758382-cute-yellow-moon-png-clipart-picture-animated-picture-of-a-moon-cute-moon-png-820_950_preview.png.jpeg */; };
 		18D1681224DF894200666C5E /* 401934_preview.png in Resources */ = {isa = PBXBuildFile; fileRef = 18D167FF24DF894200666C5E /* 401934_preview.png */; };
+		6A01AD0F296A339100AD694C /* NavigationControllerExten.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A01ACFC296A339100AD694C /* NavigationControllerExten.swift */; };
+		6A01AD10296A339100AD694C /* ImagePickerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A01ACFD296A339100AD694C /* ImagePickerController.swift */; };
+		6A01AD11296A339100AD694C /* NSObjectExtens.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A01ACFE296A339100AD694C /* NSObjectExtens.swift */; };
+		6A01AD12296A339100AD694C /* ColorExtens.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A01ACFF296A339100AD694C /* ColorExtens.swift */; };
+		6A01AD13296A339100AD694C /* UIImageExtens.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A01AD00296A339100AD694C /* UIImageExtens.swift */; };
+		6A01AD14296A339100AD694C /* UIViewControllerExtens.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A01AD01296A339100AD694C /* UIViewControllerExtens.swift */; };
+		6A01AD15296A339100AD694C /* OptionalExtens.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A01AD02296A339100AD694C /* OptionalExtens.swift */; };
+		6A01AD16296A339100AD694C /* UITabbarExtens.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A01AD03296A339100AD694C /* UITabbarExtens.swift */; };
+		6A01AD17296A339100AD694C /* StoryboardExtens.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A01AD04296A339100AD694C /* StoryboardExtens.swift */; };
+		6A01AD18296A339100AD694C /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A01AD05296A339100AD694C /* StringExtension.swift */; };
+		6A01AD19296A339100AD694C /* NSMutableAttributedStringExtens.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A01AD06296A339100AD694C /* NSMutableAttributedStringExtens.swift */; };
+		6A01AD1A296A339100AD694C /* UIViewExtens.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A01AD08296A339100AD694C /* UIViewExtens.swift */; };
+		6A01AD1B296A339100AD694C /* UICollectionViewExtens.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A01AD09296A339100AD694C /* UICollectionViewExtens.swift */; };
+		6A01AD1C296A339100AD694C /* UIImageViewExtens.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A01AD0A296A339100AD694C /* UIImageViewExtens.swift */; };
+		6A01AD1D296A339100AD694C /* UITableViewExtens.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A01AD0B296A339100AD694C /* UITableViewExtens.swift */; };
+		6A01AD1E296A339100AD694C /* TextFieldExten.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A01AD0C296A339100AD694C /* TextFieldExten.swift */; };
+		6A01AD1F296A339100AD694C /* FontExtens.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A01AD0D296A339100AD694C /* FontExtens.swift */; };
+		6A01AD20296A339100AD694C /* StringExtens.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A01AD0E296A339100AD694C /* StringExtens.swift */; };
+		6A01AD34296A33A500AD694C /* BitcoinCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A01AD22296A33A500AD694C /* BitcoinCell.swift */; };
+		6A01AD35296A33A500AD694C /* FTIndicator.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A01AD24296A33A500AD694C /* FTIndicator.m */; };
+		6A01AD36296A33A500AD694C /* FTToastIndicator.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A01AD26296A33A500AD694C /* FTToastIndicator.m */; };
+		6A01AD37296A33A500AD694C /* FTProgressIndicator.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 6A01AD29296A33A500AD694C /* FTProgressIndicator.bundle */; };
+		6A01AD38296A33A500AD694C /* FTProgressIndicator.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A01AD2B296A33A500AD694C /* FTProgressIndicator.m */; };
+		6A01AD39296A33A500AD694C /* FTNotificationIndicator.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A01AD2D296A33A500AD694C /* FTNotificationIndicator.m */; };
+		6A01AD3A296A33A500AD694C /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A01AD31296A33A500AD694C /* UIColor.swift */; };
+		6A01AD3B296A33A500AD694C /* UIImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A01AD32296A33A500AD694C /* UIImage.swift */; };
+		6A01AD3C296A33A500AD694C /* UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A01AD33296A33A500AD694C /* UIViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -93,6 +120,38 @@
 		18D167FD24DF894200666C5E /* 132-1329769_png-file-sun-shape.png.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "132-1329769_png-file-sun-shape.png.jpeg"; sourceTree = "<group>"; };
 		18D167FE24DF894200666C5E /* 4758382-cute-yellow-moon-png-clipart-picture-animated-picture-of-a-moon-cute-moon-png-820_950_preview.png.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "4758382-cute-yellow-moon-png-clipart-picture-animated-picture-of-a-moon-cute-moon-png-820_950_preview.png.jpeg"; sourceTree = "<group>"; };
 		18D167FF24DF894200666C5E /* 401934_preview.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 401934_preview.png; sourceTree = "<group>"; };
+		6A01ACFC296A339100AD694C /* NavigationControllerExten.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavigationControllerExten.swift; sourceTree = "<group>"; };
+		6A01ACFD296A339100AD694C /* ImagePickerController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImagePickerController.swift; sourceTree = "<group>"; };
+		6A01ACFE296A339100AD694C /* NSObjectExtens.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSObjectExtens.swift; sourceTree = "<group>"; };
+		6A01ACFF296A339100AD694C /* ColorExtens.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorExtens.swift; sourceTree = "<group>"; };
+		6A01AD00296A339100AD694C /* UIImageExtens.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIImageExtens.swift; sourceTree = "<group>"; };
+		6A01AD01296A339100AD694C /* UIViewControllerExtens.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewControllerExtens.swift; sourceTree = "<group>"; };
+		6A01AD02296A339100AD694C /* OptionalExtens.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OptionalExtens.swift; sourceTree = "<group>"; };
+		6A01AD03296A339100AD694C /* UITabbarExtens.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UITabbarExtens.swift; sourceTree = "<group>"; };
+		6A01AD04296A339100AD694C /* StoryboardExtens.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StoryboardExtens.swift; sourceTree = "<group>"; };
+		6A01AD05296A339100AD694C /* StringExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringExtension.swift; sourceTree = "<group>"; };
+		6A01AD06296A339100AD694C /* NSMutableAttributedStringExtens.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSMutableAttributedStringExtens.swift; sourceTree = "<group>"; };
+		6A01AD08296A339100AD694C /* UIViewExtens.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewExtens.swift; sourceTree = "<group>"; };
+		6A01AD09296A339100AD694C /* UICollectionViewExtens.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UICollectionViewExtens.swift; sourceTree = "<group>"; };
+		6A01AD0A296A339100AD694C /* UIImageViewExtens.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIImageViewExtens.swift; sourceTree = "<group>"; };
+		6A01AD0B296A339100AD694C /* UITableViewExtens.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UITableViewExtens.swift; sourceTree = "<group>"; };
+		6A01AD0C296A339100AD694C /* TextFieldExten.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextFieldExten.swift; sourceTree = "<group>"; };
+		6A01AD0D296A339100AD694C /* FontExtens.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FontExtens.swift; sourceTree = "<group>"; };
+		6A01AD0E296A339100AD694C /* StringExtens.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringExtens.swift; sourceTree = "<group>"; };
+		6A01AD22296A33A500AD694C /* BitcoinCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BitcoinCell.swift; sourceTree = "<group>"; };
+		6A01AD24296A33A500AD694C /* FTIndicator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FTIndicator.m; sourceTree = "<group>"; };
+		6A01AD26296A33A500AD694C /* FTToastIndicator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FTToastIndicator.m; sourceTree = "<group>"; };
+		6A01AD27296A33A500AD694C /* FTToastIndicator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FTToastIndicator.h; sourceTree = "<group>"; };
+		6A01AD29296A33A500AD694C /* FTProgressIndicator.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = FTProgressIndicator.bundle; sourceTree = "<group>"; };
+		6A01AD2A296A33A500AD694C /* FTProgressIndicator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FTProgressIndicator.h; sourceTree = "<group>"; };
+		6A01AD2B296A33A500AD694C /* FTProgressIndicator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FTProgressIndicator.m; sourceTree = "<group>"; };
+		6A01AD2D296A33A500AD694C /* FTNotificationIndicator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FTNotificationIndicator.m; sourceTree = "<group>"; };
+		6A01AD2E296A33A500AD694C /* FTNotificationIndicator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FTNotificationIndicator.h; sourceTree = "<group>"; };
+		6A01AD2F296A33A500AD694C /* Safee-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Safee-Bridging-Header.h"; sourceTree = "<group>"; };
+		6A01AD30296A33A500AD694C /* FTIndicator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FTIndicator.h; sourceTree = "<group>"; };
+		6A01AD31296A33A500AD694C /* UIColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
+		6A01AD32296A33A500AD694C /* UIImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIImage.swift; sourceTree = "<group>"; };
+		6A01AD33296A33A500AD694C /* UIViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -148,6 +207,8 @@
 				18D167BA24DF86EF00666C5E /* ViewController.swift */,
 				18D167E624DF87D000666C5E /* jo44.png */,
 				18D167BC24DF86EF00666C5E /* Main.storyboard */,
+				6A01ACFA296A339100AD694C /* Extensions */,
+				6A01AD21296A33A500AD694C /* Helpers */,
 				18D167EC24DF894200666C5E /* shapes */,
 				18D167EA24DF890D00666C5E /* playgame.h */,
 				18D167E924DF890D00666C5E /* playgame.m */,
@@ -201,6 +262,100 @@
 				18D167FF24DF894200666C5E /* 401934_preview.png */,
 			);
 			path = shapes;
+			sourceTree = "<group>";
+		};
+		6A01ACFA296A339100AD694C /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				6A01ACFB296A339100AD694C /* Controller Extension */,
+				6A01ACFD296A339100AD694C /* ImagePickerController.swift */,
+				6A01ACFE296A339100AD694C /* NSObjectExtens.swift */,
+				6A01ACFF296A339100AD694C /* ColorExtens.swift */,
+				6A01AD00296A339100AD694C /* UIImageExtens.swift */,
+				6A01AD01296A339100AD694C /* UIViewControllerExtens.swift */,
+				6A01AD02296A339100AD694C /* OptionalExtens.swift */,
+				6A01AD03296A339100AD694C /* UITabbarExtens.swift */,
+				6A01AD04296A339100AD694C /* StoryboardExtens.swift */,
+				6A01AD05296A339100AD694C /* StringExtension.swift */,
+				6A01AD06296A339100AD694C /* NSMutableAttributedStringExtens.swift */,
+				6A01AD07296A339100AD694C /* UIKitExtension */,
+				6A01AD0D296A339100AD694C /* FontExtens.swift */,
+				6A01AD0E296A339100AD694C /* StringExtens.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		6A01ACFB296A339100AD694C /* Controller Extension */ = {
+			isa = PBXGroup;
+			children = (
+				6A01ACFC296A339100AD694C /* NavigationControllerExten.swift */,
+			);
+			path = "Controller Extension";
+			sourceTree = "<group>";
+		};
+		6A01AD07296A339100AD694C /* UIKitExtension */ = {
+			isa = PBXGroup;
+			children = (
+				6A01AD08296A339100AD694C /* UIViewExtens.swift */,
+				6A01AD09296A339100AD694C /* UICollectionViewExtens.swift */,
+				6A01AD0A296A339100AD694C /* UIImageViewExtens.swift */,
+				6A01AD0B296A339100AD694C /* UITableViewExtens.swift */,
+				6A01AD0C296A339100AD694C /* TextFieldExten.swift */,
+			);
+			path = UIKitExtension;
+			sourceTree = "<group>";
+		};
+		6A01AD21296A33A500AD694C /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				6A01AD22296A33A500AD694C /* BitcoinCell.swift */,
+				6A01AD23296A33A500AD694C /* FTIndicator */,
+				6A01AD31296A33A500AD694C /* UIColor.swift */,
+				6A01AD32296A33A500AD694C /* UIImage.swift */,
+				6A01AD33296A33A500AD694C /* UIViewController.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		6A01AD23296A33A500AD694C /* FTIndicator */ = {
+			isa = PBXGroup;
+			children = (
+				6A01AD24296A33A500AD694C /* FTIndicator.m */,
+				6A01AD25296A33A500AD694C /* FTToastIndicator */,
+				6A01AD28296A33A500AD694C /* FTProgressIndicator */,
+				6A01AD2C296A33A500AD694C /* FTNotificationIndicator */,
+				6A01AD2F296A33A500AD694C /* Safee-Bridging-Header.h */,
+				6A01AD30296A33A500AD694C /* FTIndicator.h */,
+			);
+			path = FTIndicator;
+			sourceTree = "<group>";
+		};
+		6A01AD25296A33A500AD694C /* FTToastIndicator */ = {
+			isa = PBXGroup;
+			children = (
+				6A01AD26296A33A500AD694C /* FTToastIndicator.m */,
+				6A01AD27296A33A500AD694C /* FTToastIndicator.h */,
+			);
+			path = FTToastIndicator;
+			sourceTree = "<group>";
+		};
+		6A01AD28296A33A500AD694C /* FTProgressIndicator */ = {
+			isa = PBXGroup;
+			children = (
+				6A01AD29296A33A500AD694C /* FTProgressIndicator.bundle */,
+				6A01AD2A296A33A500AD694C /* FTProgressIndicator.h */,
+				6A01AD2B296A33A500AD694C /* FTProgressIndicator.m */,
+			);
+			path = FTProgressIndicator;
+			sourceTree = "<group>";
+		};
+		6A01AD2C296A33A500AD694C /* FTNotificationIndicator */ = {
+			isa = PBXGroup;
+			children = (
+				6A01AD2D296A33A500AD694C /* FTNotificationIndicator.m */,
+				6A01AD2E296A33A500AD694C /* FTNotificationIndicator.h */,
+			);
+			path = FTNotificationIndicator;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -322,6 +477,7 @@
 				18D1680324DF894200666C5E /* 99.png in Resources */,
 				18D1680D24DF894200666C5E /* 55.png in Resources */,
 				18D1680624DF894200666C5E /* images-2.png in Resources */,
+				6A01AD37296A33A500AD694C /* FTProgressIndicator.bundle in Resources */,
 				18D1680C24DF894200666C5E /* 33.png in Resources */,
 				18D1680224DF894200666C5E /* images.jpeg in Resources */,
 				18D1680724DF894200666C5E /* 11.png in Resources */,
@@ -356,9 +512,35 @@
 			buildActionMask = 2147483647;
 			files = (
 				18D167BB24DF86EF00666C5E /* ViewController.swift in Sources */,
+				6A01AD3A296A33A500AD694C /* UIColor.swift in Sources */,
+				6A01AD10296A339100AD694C /* ImagePickerController.swift in Sources */,
+				6A01AD15296A339100AD694C /* OptionalExtens.swift in Sources */,
+				6A01AD1F296A339100AD694C /* FontExtens.swift in Sources */,
+				6A01AD1C296A339100AD694C /* UIImageViewExtens.swift in Sources */,
+				6A01AD17296A339100AD694C /* StoryboardExtens.swift in Sources */,
+				6A01AD12296A339100AD694C /* ColorExtens.swift in Sources */,
+				6A01AD20296A339100AD694C /* StringExtens.swift in Sources */,
+				6A01AD1D296A339100AD694C /* UITableViewExtens.swift in Sources */,
+				6A01AD34296A33A500AD694C /* BitcoinCell.swift in Sources */,
 				18D167EB24DF890E00666C5E /* playgame.m in Sources */,
+				6A01AD13296A339100AD694C /* UIImageExtens.swift in Sources */,
 				18D167B724DF86EF00666C5E /* AppDelegate.swift in Sources */,
+				6A01AD3C296A33A500AD694C /* UIViewController.swift in Sources */,
+				6A01AD18296A339100AD694C /* StringExtension.swift in Sources */,
+				6A01AD0F296A339100AD694C /* NavigationControllerExten.swift in Sources */,
+				6A01AD36296A33A500AD694C /* FTToastIndicator.m in Sources */,
+				6A01AD38296A33A500AD694C /* FTProgressIndicator.m in Sources */,
+				6A01AD19296A339100AD694C /* NSMutableAttributedStringExtens.swift in Sources */,
+				6A01AD3B296A33A500AD694C /* UIImage.swift in Sources */,
+				6A01AD16296A339100AD694C /* UITabbarExtens.swift in Sources */,
+				6A01AD1B296A339100AD694C /* UICollectionViewExtens.swift in Sources */,
 				18D167B924DF86EF00666C5E /* SceneDelegate.swift in Sources */,
+				6A01AD39296A33A500AD694C /* FTNotificationIndicator.m in Sources */,
+				6A01AD1E296A339100AD694C /* TextFieldExten.swift in Sources */,
+				6A01AD1A296A339100AD694C /* UIViewExtens.swift in Sources */,
+				6A01AD11296A339100AD694C /* NSObjectExtens.swift in Sources */,
+				6A01AD14296A339100AD694C /* UIViewControllerExtens.swift in Sources */,
+				6A01AD35296A33A500AD694C /* FTIndicator.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
