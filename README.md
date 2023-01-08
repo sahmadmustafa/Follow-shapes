@@ -7,7 +7,7 @@
 [![License](https://img.shields.io/cocoapods/l/BadgeSwift.svg?style=flat)](/LICENSE)
 [![Platform](https://img.shields.io/cocoapods/p/BadgeSwift.svg?style=flat)](http://cocoadocs.org/docsets/BadgeSwift)
 
-# Grphical UI looks
+# Graphical UI looks
 
 ![Untitled-2](https://user-images.githubusercontent.com/25474407/211174811-b1190987-d6c4-4f2c-ad71-924f6d2d5ae6.gif)
 
